@@ -1,0 +1,29 @@
+{
+  "name": "project_aws_sqs",
+  "version": "1.0.0",
+  "description": "Demo of AWS SQS",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaypatel-24/aws-sqs.git"
+  },
+  "author": "Jay Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaypatel-24/aws-sqs/issues"
+  },
+  "homepage": "https://github.com/jaypatel-24/aws-sqs#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1069.0",
+    "config": "^3.3.7",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
