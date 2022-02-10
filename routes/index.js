@@ -77,4 +77,6 @@ router.post('/send-message', (req, res) => {
 		});
 });
 
+router.get('/check', (req, res) => {});
+
 module.exports = router;
